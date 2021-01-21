@@ -2,10 +2,11 @@
 
 namespace JumpTwentyFour\ProjectAnalyzers\Analyzers\Consistency;
 
+use Enlightn\Enlightn\Analyzers\Reliability\ReliabilityAnalyzer;
 use Illuminate\Filesystem\Filesystem;
 use JumpTwentyFour\ProjectAnalyzers\Concerns\AnalyzesFiles;
 
-class InvokableControllersAnalyzer extends ConsistencyAnalyzer
+class InvokableControllersAnalyzer extends ReliabilityAnalyzer
 {
     use AnalyzesFiles;
 

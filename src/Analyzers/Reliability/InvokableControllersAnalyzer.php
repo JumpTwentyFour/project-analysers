@@ -15,7 +15,7 @@ class InvokableControllersAnalyzer extends ReliabilityAnalyzer
      *
      * @var string|null
      */
-    public $title = 'Analyzes whether all controllers are single action controllers.';
+    public $title = 'Analyzes whether all controllers are invokable single action controllers.';
 
     /**
      * The severity of the analyzer.

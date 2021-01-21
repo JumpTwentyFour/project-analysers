@@ -3,11 +3,23 @@ A base set of analysers extending upon [Laravel Enlightn](https://github.com/enl
 
 ## Setup
 
+Add the following to your `composer.json` file.
+```
+"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/JumpTwentyFour/project-analysers"
+        }
+    ],
+```
+
+Then run the following commands:-
+
 `composer require jumptwentyfour/project-analysers`
 
 `php artisan vendor:publish --tag=enlightn`
 
-Then inside of `config/enlightn.php` add the following path to the `analyzer_paths` key. `        
+Inside of `config/enlightn.php` add the following path to the `analyzer_paths` key.        
 
 `JumpTwentyFour\\ProjectAnalyzers\\Analyzers' => base_path('vendor/jumptwentyfour/project-analysers/src/Analyzers')`
 

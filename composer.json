@@ -1,5 +1,5 @@
 {
-  "name": "jump-twenty-four/project-analysers",
+  "name": "jumptwentyfour/project-analysers",
   "description": "A base set of analysers extending upon Laravel Enlightn to enforce consistency, security and reliability",
   "license": "MIT",
   "authors": [

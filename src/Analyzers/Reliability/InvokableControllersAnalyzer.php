@@ -1,6 +1,6 @@
 <?php
 
-namespace JumpTwentyFour\ProjectAnalyzers\Analyzers\Consistency;
+namespace JumpTwentyFour\ProjectAnalyzers\Analyzers\Reliability;
 
 use Enlightn\Enlightn\Analyzers\Reliability\ReliabilityAnalyzer;
 use Illuminate\Filesystem\Filesystem;

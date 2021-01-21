@@ -1,6 +1,6 @@
 <?php
 
-namespace JumpTwentyFour\ProjectAnalyzers\Security;
+namespace JumpTwentyFour\ProjectAnalyzers\Analyzers\Security;
 
 use Enlightn\Enlightn\Analyzers\Security\SecurityAnalyzer;
 use Enlightn\Enlightn\Composer;

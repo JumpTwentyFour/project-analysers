@@ -1,6 +1,6 @@
 <?php
 
-namespace JumpTwentyFour\ProjectAnalyzers\Consistency;
+namespace JumpTwentyFour\ProjectAnalyzers\Analyzers\Consistency;
 
 use Enlightn\Enlightn\Analyzers\Analyzer;
 

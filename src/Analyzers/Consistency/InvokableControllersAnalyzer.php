@@ -1,12 +1,11 @@
 <?php
 
-namespace JumpTwentyFour\ProjectAnalyzers\Analyzers\Reliability;
+namespace JumpTwentyFour\ProjectAnalyzers\Analyzers\Consistency;
 
-use Enlightn\Enlightn\Analyzers\Reliability\ReliabilityAnalyzer;
 use Illuminate\Filesystem\Filesystem;
 use JumpTwentyFour\ProjectAnalyzers\Concerns\AnalyzesFiles;
 
-class InvokableControllersAnalyzer extends ReliabilityAnalyzer
+class InvokableControllersAnalyzer extends ConsistencyAnalyzer
 {
     use AnalyzesFiles;
 

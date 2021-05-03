@@ -28,7 +28,7 @@ Inside of `config/enlightn.php` add the following path to the `analyzer_paths` k
 #### Reliability
 
 ##### Node Version Analyser
-An analyser to check whether an .nvrmc file exists within the project to enforce consistency of node versions.
+An analyser to check whether an .nvmrc file exists within the project to enforce consistency of node versions.
 
 ##### Invokable Controllers Analyser
 An analyser to check whether all controllers adhere to being single action invokable controllers.
